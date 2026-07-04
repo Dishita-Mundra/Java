@@ -1,3 +1,5 @@
+import java.util.*;
+
 public class Main {
     public static void main(String[] args) {
         // System.out.println("Hello World\nJava");
@@ -14,11 +16,16 @@ public class Main {
         // int a = 25;
         // double price = 25.25;
 
-        int a = 10;
-        int b = 20;
-        int sum = a + b;
-        int mul = a * b;
-        System.out.println(sum);
-        System.out.print(mul);
+        // int a = 10;
+        // int b = 20;
+        // int sum = a + b;
+        // int mul = a * b;
+        // System.out.println(sum);
+        // System.out.print(mul);
+
+        //INPUT
+        Scanner sc = new Scanner(System.in);
+        String name = sc.next();
+        System.out.println(name);
     }
 }
