@@ -61,6 +61,38 @@ public class ConditionalStatements {
         //         break;
         //     default:
         //         System.out.print("Invalid button");
+        // }
+
+
+        // PRACTICE
+
+        System.out.print("Enter a number: ");
+        int a = sc.nextInt();
+
+        System.out.print("Enter another number: ");
+        int b = sc.nextInt();
+
+        System.out.print("Enter a button(1/2/3/4/5): ");
+        int button = sc.nextInt();
+
+        switch(button) {
+            case 1:
+                System.out.println("The sum of " + a + " and " + b + " is " + (a + b));
+                break;
+            case 2:
+                System.out.println("The difference of " + a + " and " + b + " is " + (a - b));
+                break;
+            case 3:
+                System.out.println("The product of " + a + " and " + b + " is " + (a * b));
+                break;
+            case 4:
+                System.out.println("The quotient of " + a + " and " + b + " is " + (a / b));
+                break;
+            case 5:
+                System.out.println("The remainder of " + a + " and " + b + " is " + (a % b));
+                break;
+            default:
+                System.out.print("Invalid button");
         }
     }
 }
