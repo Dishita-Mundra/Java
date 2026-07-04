@@ -19,6 +19,6 @@ public class Main {
         int sum = a + b;
         int mul = a * b;
         System.out.println(sum);
-        System.out.println(sum);
+        System.out.print(mul);
     }
 }
