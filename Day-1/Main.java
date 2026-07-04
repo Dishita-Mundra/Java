@@ -23,9 +23,25 @@ public class Main {
         // System.out.println(sum);
         // System.out.print(mul);
 
-        //INPUT
+        // INPUT
+        // Scanner sc = new Scanner(System.in);
+        // String name = sc.nextLine();
+        // //nextInt()
+        // //nextFloat()
+        // //nextDouble()
+        // //nextBoolean()
+        // System.out.println(name);
+
+        // PRACTICE
         Scanner sc = new Scanner(System.in);
-        String name = sc.next();
-        System.out.println(name);
+
+        System.out.print("Enter a number: ");
+        int a = sc.nextInt();
+
+        System.out.print("Enter another number: ");
+        int b = sc.nextInt();
+
+        int sum = a + b;
+        System.out.println("The sum of " + a + " and " + b + " is " + sum);
     }
 }
