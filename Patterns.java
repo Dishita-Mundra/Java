@@ -138,41 +138,59 @@ public class Patterns {
 
         // // upper half
         // for (int i = 1; i <= rows; i++) {
-        //     // 1st part
-        //     for (int j = 1; j <= i; j++) {
-        //         System.out.print("* ");
-        //     }
-        //     // spaces
-        //     int spaces = 2 * (rows - i);
-        //     for (int j = 1; j <= spaces; j++) {
-        //         System.out.print("  ");
-        //     }
+        // // 1st part
+        // for (int j = 1; j <= i; j++) {
+        // System.out.print("* ");
+        // }
+        // // spaces
+        // int spaces = 2 * (rows - i);
+        // for (int j = 1; j <= spaces; j++) {
+        // System.out.print(" ");
+        // }
 
-        //     // 2nd part
-        //     for (int j = 1; j <= i; j++) {
+        // // 2nd part
+        // for (int j = 1; j <= i; j++) {
+        // System.out.print("* ");
+        // }
+        // System.out.println();
+        // }
+
+        // // lower half
+        // for (int i = rows; i >= 1; i--) {
+        // // 1st part
+        // for (int j = 1; j <= i; j++) {
+        // System.out.print("* ");
+        // }
+        // // spaces
+        // int spaces = 2 * (rows - i);
+        // for (int j = 1; j <= spaces; j++) {
+        // System.out.print(" ");
+        // }
+
+        // // 2nd part
+        // for (int j = 1; j <= i; j++) {
+        // System.out.print("* ");
+        // }
+        // System.out.println();
+
+        // PATTERN 11 - solid rhombus
+
+        // System.out.print("Enter number of rows: ");
+        // int rows = sc.nextInt();
+
+        // for (int i = 1; i <= rows; i++) {
+        //     // spaces
+        //     for (int j = 1; j <= rows - i; j++) {
+        //         System.out.print(" ");
+        //     }
+        //     // stars
+        //     for (int j = 1; j <= rows; j++) {
         //         System.out.print("* ");
         //     }
         //     System.out.println();
         // }
 
-        // // lower half
-        // for (int i = rows; i >= 1; i--) {
-        //     // 1st part
-        //     for (int j = 1; j <= i; j++) {
-        //         System.out.print("* ");
-        //     }
-        //     // spaces
-        //     int spaces = 2 * (rows - i);
-        //     for (int j = 1; j <= spaces; j++) {
-        //         System.out.print("  ");
-        //     }
 
-        //     // 2nd part
-        //     for (int j = 1; j <= i; j++) {
-        //         System.out.print("* ");
-        //     }
-        //     System.out.println();
-
-        }
+        
     }
 }
