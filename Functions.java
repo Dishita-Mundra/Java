@@ -83,20 +83,49 @@ public class Functions {
     // Q4. Make a function to check if a number is even or not.
 
     // public static void evenNum(int n) {
-    //     if (n % 2 == 0) {
-    //         System.out.print(n + " is an even number");
-    //     } else {
-    //         System.out.print(n + " is not an even number");
-    //     }
-    //     return;
+    // if (n % 2 == 0) {
+    // System.out.print(n + " is an even number");
+    // } else {
+    // System.out.print(n + " is not an even number");
+    // }
+    // return;
     // }
 
     // public static void main(String[] args) {
+    // Scanner sc = new Scanner(System.in);
+
+    // System.out.print("Enter a number: ");
+    // int n = sc.nextInt();
+
+    // evenNum(n);
+    // }
+
+    // Q5. Make a function to check if a number is prime or not.
+
+    // public static boolean isPrime(int n) {
+
+    //     if (n <= 1) {
+    //         return false;
+    //     }
+    //     for (int i = 2; i <= Math.sqrt(n); i++) {
+    //         if (n % i == 0) {
+    //             return false;
+    //         }
+    //     }
+    //     return true;
+    // }
+
+    // public static void main(String[] args) {
+
     //     Scanner sc = new Scanner(System.in);
 
     //     System.out.print("Enter a number: ");
     //     int n = sc.nextInt();
 
-    //     evenNum(n);
+    //     if (isPrime(n)) {
+    //         System.out.println(n + " is a Prime Number.");
+    //     } else {
+    //         System.out.println(n + " is Not a Prime Number.");
+    //     }
     // }
 }
