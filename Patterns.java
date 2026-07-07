@@ -179,17 +179,16 @@ public class Patterns {
         // int rows = sc.nextInt();
 
         // for (int i = 1; i <= rows; i++) {
-        //     // spaces
-        //     for (int j = 1; j <= rows - i; j++) {
-        //         System.out.print(" ");
-        //     }
-        //     // stars
-        //     for (int j = 1; j <= rows; j++) {
-        //         System.out.print("* ");
-        //     }
-        //     System.out.println();
+        // // spaces
+        // for (int j = 1; j <= rows - i; j++) {
+        // System.out.print(" ");
         // }
-
+        // // stars
+        // for (int j = 1; j <= rows; j++) {
+        // System.out.print("* ");
+        // }
+        // System.out.println();
+        // }
 
         // PATTERN 12 - Number pyramid
 
@@ -197,17 +196,16 @@ public class Patterns {
         // int rows = sc.nextInt();
 
         // for (int i = 1; i <= rows; i++) {
-        //     // spaces
-        //     for (int j = 1; j <= rows - i; j++) {
-        //         System.out.print(" ");
-        //     }
-        //     // numbers
-        //     for (int j = 1; j <= i; j++) {
-        //         System.out.print(i + " ");
-        //     }
-        //     System.out.println();
+        // // spaces
+        // for (int j = 1; j <= rows - i; j++) {
+        // System.out.print(" ");
         // }
-
+        // // numbers
+        // for (int j = 1; j <= i; j++) {
+        // System.out.print(i + " ");
+        // }
+        // System.out.println();
+        // }
 
         // PATTERN 13 - Palindromic pattern
 
@@ -215,19 +213,47 @@ public class Patterns {
         // int rows = sc.nextInt();
 
         // for (int i = 1; i <= rows; i++) {
-        //     // spaces
-        //     for (int j = 1; j <= rows - i; j++) {
-        //         System.out.print("  ");
-        //     }
-        //     // 1st half
-        //     for (int j = i; j >= 1; j--) {
-        //         System.out.print(j + " ");
-        //     }
-        //     // 2nd half
-        //     for (int j = 2; j <= i; j++) {
-        //         System.out.print(j + " ");
-        //     }
-        //     System.out.println();
+        // // spaces
+        // for (int j = 1; j <= rows - i; j++) {
+        // System.out.print(" ");
         // }
+        // // 1st half
+        // for (int j = i; j >= 1; j--) {
+        // System.out.print(j + " ");
+        // }
+        // // 2nd half
+        // for (int j = 2; j <= i; j++) {
+        // System.out.print(j + " ");
+        // }
+        // System.out.println();
+        // }
+
+        // PATTERN 14 - Diamond pattern
+
+        System.out.print("Enter number of rows: ");
+        int rows = sc.nextInt();
+
+        for (int i = 1; i <= rows; i++) {
+            // spaces
+            for (int j = 1; j <= rows - i; j++) {
+                System.out.print("  ");
+            }
+            // stars
+            for (int j = 1; j <= 2 * i - 1; j++) {
+                System.out.print("* ");
+            }
+            System.out.println();
+        }
+        for (int i = rows - 1; i >= 1; i--) {
+            // spaces
+            for (int j = 1; j <= rows - i; j++) {
+                System.out.print("  ");
+            }
+            // stars
+            for (int j = 1; j <= 2 * i - 1; j++) {
+                System.out.print("* ");
+            }
+            System.out.println();
+        }
     }
 }
