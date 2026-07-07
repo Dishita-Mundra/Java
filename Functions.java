@@ -34,4 +34,25 @@ public class Functions {
 
     //     sum(a, b); // function call
     // }
+
+
+    // Q2. Make a function to multiply two numbers and return the product.
+
+    // public static void product(int a,int b){
+    //     int multiply = a * b;
+    //     System.out.print("Multiplication of " + a + " and " + b + " is " + multiply);
+    //     return;
+    // }
+
+    // public static void main(String[] args) {
+    //     Scanner sc = new Scanner(System.in);
+
+    //     System.out.print("Enter first number: ");
+    //     int a = sc.nextInt();
+
+    //     System.out.print("Enter second number: ");
+    //     int b = sc.nextInt();
+
+    //     product(a, b); // function call
+    // }
 }
