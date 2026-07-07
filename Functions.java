@@ -58,16 +58,36 @@ public class Functions {
     // Q3. Find the factorial of a number.
 
     // public static void factorial(int n) {
-    //     if (n < 0) {
-    //         System.out.print("Invalid number for factorial calculation");
-    //         return;
-    //     }
+    // if (n < 0) {
+    // System.out.print("Invalid number for factorial calculation");
+    // return;
+    // }
 
-    //     int fact = 1;
-    //     for (int i = n; i >= 1; i--) {
-    //         fact *= i;
+    // int fact = 1;
+    // for (int i = n; i >= 1; i--) {
+    // fact *= i;
+    // }
+    // System.out.println("factorial of " + n + " is " + fact);
+    // return;
+    // }
+
+    // public static void main(String[] args) {
+    // Scanner sc = new Scanner(System.in);
+
+    // System.out.print("Enter a number: ");
+    // int n = sc.nextInt();
+
+    // factorial(n);
+    // }
+
+    // Q4. Make a function to check if a number is even or not.
+
+    // public static void evenNum(int n) {
+    //     if (n % 2 == 0) {
+    //         System.out.print(n + " is an even number");
+    //     } else {
+    //         System.out.print(n + " is not an even number");
     //     }
-    //     System.out.println("factorial of " + n + " is " + fact);
     //     return;
     // }
 
@@ -77,6 +97,6 @@ public class Functions {
     //     System.out.print("Enter a number: ");
     //     int n = sc.nextInt();
 
-    //     factorial(n);
+    //     evenNum(n);
     // }
 }
