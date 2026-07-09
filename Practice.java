@@ -29,23 +29,52 @@ public class Practice {
     // Q2. Write a function to print the sum of all odd numbers from 1 to n.
 
     // public static void oddNum(int n) {
-    //     int sum = 0;
-    //     for (int i = 1; i <= n; i++) {
-    //         if (i % 2 != 0) {
-    //             sum += i;
-    //         }
-    //     }
-    //     System.out.print("Sum of all odd numbers from 1 to " + n + " natural numbers is " + sum);
+    // int sum = 0;
+    // for (int i = 1; i <= n; i++) {
+    // if (i % 2 != 0) {
+    // sum += i;
+    // }
+    // }
+    // System.out.print("Sum of all odd numbers from 1 to " + n + " natural numbers
+    // is " + sum);
     // }
 
     // public static void main(String[] args) {
-    //     Scanner sc = new Scanner(System.in);
+    // Scanner sc = new Scanner(System.in);
 
-    //     System.out.print("Enter n: ");
-    //     int n = sc.nextInt();
+    // System.out.print("Enter n: ");
+    // int n = sc.nextInt();
 
-    //     oddNum(n);
+    // oddNum(n);
 
-    //     sc.close();
+    // sc.close();
     // }
+
+    // Q3. Write a function which takes in 2 numbers and returns the greater of
+    // those two.
+
+    public static void greaterNum(int a, int b) {
+        if (a > b) {
+            System.out.print("a is greater");
+        } else if (a < b) {
+            System.out.print("b is greater");
+        } else {
+            System.out.print("a and b are equal");
+        }
+        return;
+    }
+    
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+
+        System.out.print("Enter a: ");
+        int a = sc.nextInt();
+
+        System.out.print("Enter b: ");
+        int b = sc.nextInt();
+
+        greaterNum(a, b);
+
+        sc.close();
+    }
 }
