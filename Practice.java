@@ -53,28 +53,54 @@ public class Practice {
     // Q3. Write a function which takes in 2 numbers and returns the greater of
     // those two.
 
-    public static void greaterNum(int a, int b) {
-        if (a > b) {
-            System.out.print("a is greater");
-        } else if (a < b) {
-            System.out.print("b is greater");
-        } else {
-            System.out.print("a and b are equal");
-        }
-        return;
-    }
+    // public static void greaterNum(int a, int b) {
+    //     if (a > b) {
+    //         System.out.print("a is greater");
+    //     } else if (a < b) {
+    //         System.out.print("b is greater");
+    //     } else {
+    //         System.out.print("a and b are equal");
+    //     }
+    //     return;
+    // }
     
-    public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
+    // public static void main(String[] args) {
+    //     Scanner sc = new Scanner(System.in);
 
-        System.out.print("Enter a: ");
-        int a = sc.nextInt();
+    //     System.out.print("Enter a: ");
+    //     int a = sc.nextInt();
 
-        System.out.print("Enter b: ");
-        int b = sc.nextInt();
+    //     System.out.print("Enter b: ");
+    //     int b = sc.nextInt();
 
-        greaterNum(a, b);
+    //     greaterNum(a, b);
 
-        sc.close();
-    }
+    //     sc.close();
+    // }
+
+
+    // Q4. Write a function that takes in the radius as input and returns the circumference of a circle.
+
+    // public static void circumference(int r) {
+    //     if (r > 0) {
+    //         double circumference = 2 * 3.14 * r;
+    //         System.out.print("Circumference of circle is " + circumference);
+    //     }
+    //     else {
+    //         System.out.print("Invalid radius");
+    //     }
+    //     return;
+    // }
+
+    // public static void main(String[] args) {
+    //     Scanner sc = new Scanner(System.in);
+
+    //     System.out.print("Enter radius: ");
+    //     int r = sc.nextInt();
+
+    //     circumference(r);
+    // }
+
+
+    
 }
