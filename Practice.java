@@ -54,75 +54,101 @@ public class Practice {
     // those two.
 
     // public static void greaterNum(int a, int b) {
-    //     if (a > b) {
-    //         System.out.print("a is greater");
-    //     } else if (a < b) {
-    //         System.out.print("b is greater");
-    //     } else {
-    //         System.out.print("a and b are equal");
-    //     }
-    //     return;
+    // if (a > b) {
+    // System.out.print("a is greater");
+    // } else if (a < b) {
+    // System.out.print("b is greater");
+    // } else {
+    // System.out.print("a and b are equal");
     // }
-    
+    // return;
+    // }
+
     // public static void main(String[] args) {
-    //     Scanner sc = new Scanner(System.in);
+    // Scanner sc = new Scanner(System.in);
 
-    //     System.out.print("Enter a: ");
-    //     int a = sc.nextInt();
+    // System.out.print("Enter a: ");
+    // int a = sc.nextInt();
 
-    //     System.out.print("Enter b: ");
-    //     int b = sc.nextInt();
+    // System.out.print("Enter b: ");
+    // int b = sc.nextInt();
 
-    //     greaterNum(a, b);
+    // greaterNum(a, b);
 
-    //     sc.close();
+    // sc.close();
     // }
 
-
-    // Q4. Write a function that takes in the radius as input and returns the circumference of a circle.
+    // Q4. Write a function that takes in the radius as input and returns the
+    // circumference of a circle.
 
     // public static void circumference(int r) {
-    //     if (r > 0) {
-    //         double circumference = 2 * 3.14 * r;
-    //         System.out.print("Circumference of circle is " + circumference);
-    //     }
-    //     else {
-    //         System.out.print("Invalid radius");
-    //     }
-    //     return;
+    // if (r > 0) {
+    // double circumference = 2 * 3.14 * r;
+    // System.out.print("Circumference of circle is " + circumference);
+    // }
+    // else {
+    // System.out.print("Invalid radius");
+    // }
+    // return;
     // }
 
     // public static void main(String[] args) {
-    //     Scanner sc = new Scanner(System.in);
+    // Scanner sc = new Scanner(System.in);
 
-    //     System.out.print("Enter radius: ");
-    //     int r = sc.nextInt();
+    // System.out.print("Enter radius: ");
+    // int r = sc.nextInt();
 
-    //     circumference(r);
+    // circumference(r);
     // }
 
-
-    // Q5. Write a function that takes in age as input and returns if that person is eligible to vote or not. A person of age > 18 is eligible to vote.
+    // Q5. Write a function that takes in age as input and returns if that person is
+    // eligible to vote or not. A person of age > 18 is eligible to vote.
 
     // public static void votingAge(int age) {
-    //     if (age < 0) {
-    //         System.out.print("Invalid age");
-    //     } else if (age > 18) {
-    //         System.out.print("Eligible to vote");
-    //     } else {
-    //         System.out.print("Not eligible to vote");
-    //     }
-    //     return;
+    // if (age < 0) {
+    // System.out.print("Invalid age");
+    // } else if (age > 18) {
+    // System.out.print("Eligible to vote");
+    // } else {
+    // System.out.print("Not eligible to vote");
+    // }
+    // return;
     // }
 
     // public static void main(String[] args) {
-    //     Scanner sc = new Scanner(System.in);
+    // Scanner sc = new Scanner(System.in);
 
-    //     System.out.print("Enter your age: ");
-    //     int age = sc.nextInt();
+    // System.out.print("Enter your age: ");
+    // int age = sc.nextInt();
 
-    //     votingAge(age);
+    // votingAge(age);
 
-    //     sc.close();
+    // sc.close();
     // }
+
+    // Q6. Two numbers are entered by the user, x and n. Write a function to find
+    // the value of one number raised to the power of another i.e. x^n.
+
+    public static void power(int x, int n) {
+        int pow = 1;
+
+        for (int i = 1; i <= n; i++) {
+            pow = pow * x;
+        }
+
+        System.out.print(x + "^" + n + "= " + pow);
+        return;
+    }
+
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+
+        System.out.print("Enter x: ");
+        int x = sc.nextInt();
+
+        System.out.print("Enter n: ");
+        int n = sc.nextInt();
+
+        power(x, n);
+    }
 }
