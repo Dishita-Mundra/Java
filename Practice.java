@@ -130,11 +130,14 @@ public class Practice {
     // the value of one number raised to the power of another i.e. x^n.
 
     public static void power(int x, int n) {
-        int pow = 1;
 
-        for (int i = 1; i <= n; i++) {
-            pow = pow * x;
-        }
+        double pow = Math.pow(x, n);
+
+        // int pow = 1;
+
+        // for (int i = 1; i <= n; i++) {
+        //     pow = pow * x;
+        // }
 
         System.out.print(x + "^" + n + "= " + pow);
         return;
