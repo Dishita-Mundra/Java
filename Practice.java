@@ -131,13 +131,13 @@ public class Practice {
 
     public static void power(int x, int n) {
 
-        double pow = Math.pow(x, n);
+        // double pow = Math.pow(x, n);
 
-        // int pow = 1;
+        int pow = 1;
 
-        // for (int i = 1; i <= n; i++) {
-        //     pow = pow * x;
-        // }
+        for (int i = 1; i <= n; i++) {
+            pow = pow * x;
+        }
 
         System.out.print(x + "^" + n + "= " + pow);
         return;
