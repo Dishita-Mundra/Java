@@ -35,7 +35,9 @@ public class Arrays {
         // System.out.println(numbers[i]);
         // }
 
-        // Q. Take an array as input from the user. Search for a given number x and print the index at which it occurs.
+        
+        // Q. Take an array as input from the user. Search for a given number x and
+        // print the index at which it occurs.
 
         // System.out.print("Enter the size of array: ");
         // int size = sc.nextInt();
@@ -44,8 +46,8 @@ public class Arrays {
 
         // // input
         // for (int i = 0; i < size; i++) {
-        //     System.out.print("Enter an element: ");
-        //     numbers[i] = sc.nextInt();
+        // System.out.print("Enter an element: ");
+        // numbers[i] = sc.nextInt();
         // }
 
         // System.out.print("Enter x: ");
@@ -53,13 +55,14 @@ public class Arrays {
 
         // // output
         // for (int i = 0; i < numbers.length; i++) {
-        //     if (numbers[i] == x) {
-        //         System.out.println("x found at index: " + i);
-        //     }
+        // if (numbers[i] == x) {
+        // System.out.println("x found at index: " + i);
+        // }
         // }
 
 
-        // Q. Take an array of names as input from the user and print them on the screen.
+        // Q. Take an array of names as input from the user and print them on the
+        // screen.
 
         // System.out.print("Enter size of array: ");
         // int size = sc.nextInt();
@@ -68,32 +71,47 @@ public class Arrays {
 
         // //input
         // for (int i = 0; i < size; i++) {
-        //     System.out.print("Enter a name: ");
-        //     names[i] = sc.next();
+        // System.out.print("Enter a name: ");
+        // names[i] = sc.next();
         // }
 
         // //output
         // for (int i = 0; i < names.length; i++) {
-        //     System.out.println("name " + (i+1) + " is: " + names[i]);
+        // System.out.println("name " + (i+1) + " is: " + names[i]);
         // }
 
 
-        // Q. Find the maximum & minimum number in an array of integers. 
+        // Q. Find the maximum & minimum number in an array of integers.
 
-        System.out.print("Enter size of array: ");
-        int size = sc.nextInt();
+        // System.out.print("Enter size of array: ");
+        // int size = sc.nextInt();
 
-        int integers[] = new int[size];
+        // int integers[] = new int[size];
 
-        //input 
-        for (int i = 0; i < size; i++) {
-            System.out.print("Enter an integer: ");
-            integers[i] = sc.nextInt();
-        }
+        // // input
+        // for (int i = 0; i < size; i++) {
+        //     System.out.print("Enter an integer: ");
+        //     integers[i] = sc.nextInt();
+        // }
 
-        //output
-        for (int i = 0; i < integers.length; i++) {
-            
-        }
+        // // output
+
+        // int max = Integer.MIN_VALUE;
+        // int min = Integer.MAX_VALUE;
+
+        // for (int i = 0; i < integers.length; i++) {
+        //     if (integers[i] < min) {
+        //         min = integers[i];
+        //     }
+        //     if (integers[i] > max) {
+        //         max = integers[i];
+        //     }
+        // }
+        // System.out.println("Largest number is : " + max);
+        // System.out.println("Smallest number is : " + min);
+
+
+        // Q. Take an array of numbers as input and check if it is an array sorted in ascending order.
+
     }
 }
