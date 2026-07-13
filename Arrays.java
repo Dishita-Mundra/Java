@@ -76,5 +76,24 @@ public class Arrays {
         // for (int i = 0; i < names.length; i++) {
         //     System.out.println("name " + (i+1) + " is: " + names[i]);
         // }
+
+
+        // Q. Find the maximum & minimum number in an array of integers. 
+
+        System.out.print("Enter size of array: ");
+        int size = sc.nextInt();
+
+        int integers[] = new int[size];
+
+        //input 
+        for (int i = 0; i < size; i++) {
+            System.out.print("Enter an integer: ");
+            integers[i] = sc.nextInt();
+        }
+
+        //output
+        for (int i = 0; i < integers.length; i++) {
+            
+        }
     }
 }
