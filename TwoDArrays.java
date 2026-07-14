@@ -2,15 +2,15 @@ import java.util.*;
 
 public class TwoDArrays {
     public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
+        // Scanner sc = new Scanner(System.in);
 
-        System.out.print("Enter number of rows: ");
-        int rows = sc.nextInt();
+        // System.out.print("Enter number of rows: ");
+        // int rows = sc.nextInt();
 
-        System.out.print("Enter number of columns: ");
-        int cols = sc.nextInt();
+        // System.out.print("Enter number of columns: ");
+        // int cols = sc.nextInt();
 
-        int[][] numbers = new int[rows][cols];
+        // int[][] numbers = new int[rows][cols];
 
         // // input
         // // rows
@@ -29,5 +29,8 @@ public class TwoDArrays {
         //     }
         //     System.out.println();
         // }
+
+
+        
     }
 }
