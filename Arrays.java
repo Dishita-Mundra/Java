@@ -132,13 +132,5 @@ public class Arrays {
         // } else {
         //     System.out.println("The array is not sorted in ascending order");
         // }
-
-
-        
-
-        // 2-D ARRAYS
-
-        
-
     }
 }
