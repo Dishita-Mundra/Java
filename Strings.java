@@ -63,22 +63,35 @@ public class Strings {
         // Q. Take an array of Strings input from the user & find the cumulative
         // (combined) length of all those strings.
 
-    //     System.out.print("Enter size of array: ");
-    //     int size = sc.nextInt();
+        // System.out.print("Enter size of array: ");
+        // int size = sc.nextInt();
 
-    //     String array[] = new String[size];
+        // String array[] = new String[size];
 
-    //     int totalLen = 0;
+        // int totalLen = 0;
 
-    //     for (int i = 0; i < size; i++) {
+        // for (int i = 0; i < size; i++) {
 
-    //         System.out.print("Enter string: ");
-    //         array[i] = sc.next();
+        // System.out.print("Enter string: ");
+        // array[i] = sc.next();
 
-    //         totalLen += array[i].length();
-    //     }
-    //     System.out.println("Combined length of all strings: " + totalLen);
-    // }
+        // totalLen += array[i].length();
+        // }
+        // System.out.println("Combined length of all strings: " + totalLen);
 
-    
+        // Q. Input a string from the user. Create a new string called ‘result’ in which
+        // you will replace the letter ‘e’ in the original string with letter ‘i’.
+        // Example :
+        // original = “eabcdef’ ; result = “iabcdif”
+        // Original = “xyz” ; result = “xyz”
+
+        // System.out.print("Enter a string: ");
+        // String string = sc.nextLine();
+
+        // System.out.println("Initial string: " + string);
+
+        // String result = string.replace("e", "i");
+
+        // System.out.println("Updated string: " + result);
+    }
 }
