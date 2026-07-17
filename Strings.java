@@ -99,14 +99,14 @@ public class Strings {
         // email = “apnaCollegeJava@gmail.com” ; username = “apnaCollegeJava”
         // email = “helloWorld123@gmail.com”; username = “helloWorld123”
 
-        // System.out.print("Enter email (username@gmail.com): ");
-        // String email = sc.nextLine();
+        System.out.print("Enter email (username@gmail.com): ");
+        String email = sc.nextLine();
 
-        // System.out.println("Email of user is: " + email);
+        System.out.println("Email of user is: " + email);
 
-        // int index = email.indexOf('@');
+        int index = email.indexOf('@');
 
-        // String username = email.substring(0, index);
-        // System.out.println("Username is: " + username);
+        String username = email.substring(0, index);
+        System.out.println("Username is: " + username);
     }
 }
