@@ -1,12 +1,63 @@
-import java.util.Scanner;
+import java.util.*;
 
 public class Strings {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
-        System.out.print("Enter name: ");
-        String name = sc.next();
+        // System.out.print("Enter name: ");
+        // String name = sc.nextLine();
 
-        System.out.print("Hello " + name);
+        // System.out.print("Hello " + name);
+
+        // Concatenation
+
+        // String firstName = "Tony";
+        // String lastName = "Stark";
+        // String fullName = firstName + " " + lastName;
+
+        // System.out.println(fullName);
+        // System.out.println("Length of fullName: " + fullName.length());
+
+        // // charAt
+        // for (int i = 0; i < fullName.length(); i++) {
+        //     System.out.println(fullName.charAt(i));
+        // }
+
+        // Compare Strings
+
+        // String name1 = "Tony";
+        // String name2 = "Tony";
+
+        //1. s1 > s2: return +ve value
+        //2. s1 == s2: return 0
+        //3. s1 < s2: return -ve value
+
+        // if (name1.compareTo(name2) == 0 ) {
+        //     System.out.println("Strings are equal");
+        // } else {
+        //     System.out.println("Strings are not equal");
+        // }
+
+        // if (name1 == name2 ) {
+        //     System.out.println("Strings are equal");
+        // } else {
+        //     System.out.println("Strings are not equal");
+        // }
+
+        // WRONG METHOD
+        // if (new String("Tony") == new String("Tony")) {
+        //     System.out.println("Strings are equal");
+        // } else {
+        //     System.out.println("Strings are not equal");
+        // }
+
+        // Getting Substring
+
+        String sentence = "My name is Dishita";
+        String name = sentence.substring(11, sentence.length());
+        System.out.println(name);
+
+        // Strings are Immutable - we directly can't change strings, we need to make new string to change the string 
+
     }
 }
